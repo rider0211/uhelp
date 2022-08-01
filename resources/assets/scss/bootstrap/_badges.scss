@@ -1,0 +1,283 @@
+/*-----Badges-----*/
+
+.btn .badge {
+	position: relative;
+	top: -1px;
+}
+.badge-primary {
+	color: $white;
+	background-color: var(--primary);
+	&[href] {
+		&:hover, &:focus {
+			color: $white;
+			text-decoration: none;
+			background-color: #24987E;
+		}
+	}
+}
+.badge-secondary {
+	color: $white;
+	background-color: var(--secondary);
+	&[href] {
+		&:hover, &:focus {
+			color: $white;
+			text-decoration: none;
+			background-color: var(--secondary);
+		}
+	}
+}
+.badge-burnt-orange {
+	color: $white;
+	background-color: #ff6f31;
+	&[href] {
+		&:hover, &:focus {
+			color: $white;
+			text-decoration: none;
+			background-color: #ff6f31;
+		}
+	}
+}
+.badge-success {
+	color: $white;
+	background-color: $success;
+	&[href] {
+		&:hover, &:focus {
+			color: $white;
+			text-decoration: none;
+			background-color: #15ca7c;
+		}
+	}
+}
+.badge-info {
+	color: $white;
+	background-color: $info;
+	&[href] {
+		&:hover, &:focus {
+			color: $white;
+			text-decoration: none;
+			background-color: #1594ef;
+		}
+	}
+}
+.badge-warning {
+	color: $white;
+	background-color: $warning;
+	&[href] {
+		&:hover, &:focus {
+			color: $white;
+			text-decoration: none;
+			background-color: #c29d0b;
+		}
+	}
+}
+.badge-danger {
+	color: $white;
+	background-color: $danger;
+	&[href] {
+		&:hover, &:focus {
+			color: $white;
+			text-decoration: none;
+			background-color: #a11918;
+		}
+	}
+}
+.badge-orange {
+	color: $white;
+	background-color: $orange;
+	&[href] {
+		&:hover, &:focus {
+			color: $white;
+			text-decoration: none;
+			background-color: $orange;
+		}
+	}
+}
+.badge-light {
+	color: #565b95;
+    background-color: #dee5f7;
+	&[href] {
+		&:hover, &:focus {
+			color: #5b6084;
+			background-color: #e8ebf2;
+			text-decoration: none;
+		}
+	}
+}
+.badge-dark {
+	color: $white;
+	background-color: $dark;
+	&[href] {
+		&:hover, &:focus {
+			color: $white;
+			text-decoration: none;
+			background-color: #1d2124;
+		}
+	}
+}
+
+.badge-teal {
+	color: $white;
+	background-color: $teal;
+	&[href] {
+		&:hover, &:focus {
+			color: $white;
+			text-decoration: none;
+			background-color: $teal;
+		}
+	}
+}
+.badge {
+	display: inline-block;
+	padding: 5px 12px;
+	font-size: 12px;
+	font-weight: 500;
+	line-height: 1.2;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: baseline;
+	border-radius: 7px;
+}
+.badge-pill {
+	padding-right: 1.2em;
+	padding-left: 1.2em;
+	border-radius: 10rem;
+}
+.badgetext {
+	float: right;
+}
+.badge-default {
+	background: rgb(84, 87, 95);
+	color: $white;
+}
+.shape {
+	border-style: solid;
+	border-width: 0 70px 40px 0;
+	float: right;
+	height: 0px;
+	width: 0px;
+	-ms-transform: rotate(360deg);
+	/* IE 9 */
+	-o-transform: rotate(360deg);
+	/* Opera 10.5 */
+	-webkit-transform: rotate(360deg);
+	/* Safari and Chrome */
+	transform: rotate(360deg);
+}
+.offer {
+	background: $white;
+	border: 1px solid #ddd;
+	margin: 15px 0;
+	overflow: hidden;
+	border-radius: 5px;
+}
+.shape {
+	border-color: rgba(255, 255, 255, 0) #d9534f rgba(255, 255, 255, 0) rgba(255, 255, 255, 0);
+}
+.offer-danger {
+	border-color: #dc0441;
+	.shape {
+		border-color: transparent #dc0441 transparent transparent;
+	}
+}
+.offer-success {
+	border-color: $success;
+	.shape {
+		border-color: transparent $success transparent transparent;
+	}
+}
+.offer-default {
+	border-color: #6b6f80;
+	.shape {
+		border-color: transparent #6b6f80 transparent transparent;
+	}
+}
+.offer-primary {
+	border-color: var(--primary);
+	.shape {
+		border-color: transparent var(--primary) transparent transparent;
+	}
+}
+.offer-info {
+	border-color: $info;
+	.shape {
+		border-color: transparent $info transparent transparent;
+	}
+}
+.offer-warning {
+	border-color: $warning;
+	.shape {
+		border-color: transparent $warning transparent transparent;
+	}
+}
+.shape-text {
+	color: $white;
+	font-size: 12px;
+	font-weight: bold;
+	position: relative;
+	right: -47px;
+	top: 0px;
+	white-space: nowrap;
+	-ms-transform: rotate(30deg);
+	-o-transform: rotate(360deg);
+	-webkit-transform: rotate(30deg);
+	transform: rotate(30deg);
+}
+.offer-content {
+	padding: 20px;
+}
+
+.badge-success-light {
+	background-color: rgba(1, 195, 83, 0.15) !important;
+	color: $success;
+  }
+  
+  .badge-warning-light {
+	background-color: rgba(255, 173, 0, 0.15) !important;
+	color: #ffad00;
+  }
+  
+  .badge-danger-light {
+	color: #f11541;
+	background-color: rgba(241, 21, 65, 0.15);
+  }
+  
+  .badge-info-light {
+	color: $info;
+	background-color: rgba(18, 138, 249, .1);
+  }
+  .badge-primary-light {
+    color: var(--primary);
+    background-color: rgba(51, 102, 255, .1);
+}
+.badge-secondary-light {
+    background-color: rgba(254, 127, 0, .1)!important;
+    color: var(--secondary);
+}
+.badge-orange-light {
+    background-color: rgba(243, 73, 50, .1) !important;
+    color: $orange;
+}
+.badge-pink-light {
+    background-color: rgba(239, 78, 184, .1) !important;
+    color: $pink;
+}
+
+.badge-danger-dark {
+    color: #fff;
+    background-color: #af0000;
+}
+
+
+
+.badge-md{
+	display: inline-block;
+    padding: .35em .65em;
+    font-size: .75em;
+	line-height: 1;
+	border-radius: 5px;
+}
+@media print {
+	.badge {
+		border: 1px solid $black;
+	}
+}

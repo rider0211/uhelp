@@ -1,0 +1,32 @@
+/*----- Typography ------*/
+
+.heading-inverse {
+	background-color: #333;
+	color: $white;
+	padding: 5px;
+}
+.heading-primary {
+	background-color: var(--primary);
+	color: $white;
+	padding: 5px;
+}
+.heading-success {
+	background-color: #38a01e;
+	color: $white;
+	padding: 5px;
+}
+.heading-info {
+	background-color: $info;
+	color: $white;
+	padding: 5px;
+}
+.heading-warning {
+	background-color: $warning;
+	color: $white;
+	padding: 5px;
+}
+.heading-danger {
+	background-color: #dc0441;
+	color: $white;
+	padding: 5px;
+}

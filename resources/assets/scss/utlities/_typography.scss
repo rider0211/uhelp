@@ -1,0 +1,424 @@
+/*--- Typography ---*/
+
+.text-monospace {
+	font-family: Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+.text-justify {
+	text-align: justify !important;
+}
+.text-nowrap {
+	white-space: nowrap !important;
+}
+.text-truncate {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.text-start {
+	text-align: left !important;
+}
+.text-end {
+	text-align: right !important;
+}
+.text-center {
+	text-align: center !important;
+}
+@media (min-width: 576px) {
+	.text-sm-start {
+		text-align: left !important;
+	}
+	.text-sm-end {
+		text-align: right !important;
+	}
+	.text-sm-center {
+		text-align: center !important;
+	}
+}
+@media (min-width: 768px) {
+	.text-md-start {
+		text-align: left !important;
+	}
+	.text-md-end {
+		text-align: right !important;
+	}
+	.text-md-center {
+		text-align: center !important;
+	}
+}
+@media (min-width: 992px) {
+	.text-lg-start {
+		text-align: left !important;
+	}
+	.text-lg-end {
+		text-align: right !important;
+	}
+	.text-lg-center {
+		text-align: center !important;
+	}
+}
+@media (min-width: 1280px) {
+	.text-xl-start {
+		text-align: left !important;
+	}
+	.text-xl-end {
+		text-align: right !important;
+	}
+	.text-xl-center {
+		text-align: center !important;
+	}
+}
+.text-lowercase {
+	text-transform: lowercase !important;
+}
+.text-uppercase {
+	text-transform: uppercase !important;
+}
+.text-capitalize {
+	text-transform: capitalize !important;
+}
+.font-weight-light {
+	font-weight: 300 !important;
+}
+.font-weight-normal {
+	font-weight: 400 !important;
+}
+.font-weight-normal1 {
+	font-weight: 500 !important;
+}
+.font-weight-semibold {
+	font-weight: 500 !important;
+}
+.font-weight-bold {
+	font-weight: bold !important;
+}
+.font-italic {
+	font-style: italic !important;
+}
+.text-white {
+	color: $white !important;
+}
+.text-primary {
+	color: var(--primary) !important;
+}
+a.text-primary {
+	&:hover, &:focus {
+		color: #5e69b8 !important;
+	}
+}
+.text-secondary {
+	color: var(--secondary) !important;
+}
+a.text-secondary {
+	&:hover, &:focus {
+		color: var(--secondary) !important;
+	}
+}
+.text-success {
+	color: $success !important;
+}
+a.text-success {
+	&:hover, &:focus {
+		color: #15ca7c !important;
+	}
+}
+.text-info {
+	color: $info !important;
+}
+a.text-info {
+	&:hover, &:focus {
+		color: #25a1c0 !important;
+	}
+}
+.text-warning {
+	color: $warning !important;
+}
+a.text-warning {
+	&:hover, &:focus {
+		color: #c29d0b !important;
+	}
+}
+.text-danger {
+	color: $danger !important;
+}
+a.text-danger {
+	&:hover, &:focus {
+		color: #df0812 !important;
+	}
+}
+.text-light {
+	color: #dbdffc !important;
+}
+a.text-light {
+	&:hover, &:focus {
+		color: #dae0e5 !important;
+	}
+}
+.text-dark {
+	color: $color !important;
+}
+a.text-dark {
+	&:hover, &:focus {
+		color: #384b6e !important;
+	}
+}
+.text-body {
+	color: #495057 !important;
+}
+.text-muted {
+	color: $muted !important;
+}
+.icon-muted {
+	color: #e5e9f2 !important;
+}
+.text-black-20 {
+	color: $black-2 !important;
+}
+.text-black-50 {
+	color: $black-5 !important;
+}
+.text-white-50 {
+	color: $white-5 !important;
+}
+.text-white-80 {
+	color: $white-8 !important;
+}
+.text-hide {
+	font: 0/0 a;
+	color: transparent;
+	text-shadow: none;
+	background-color: transparent;
+	border: 0;
+}
+.visible {
+	visibility: visible !important;
+}
+.invisible {
+	visibility: hidden !important;
+}
+.fs-5 {
+    font-size: 5px;
+  }
+  
+  .fs-6 {
+    font-size: 6px;
+  }
+  
+  .fs-7 {
+    font-size: 7px;
+  }
+  
+  .fs-8 {
+    font-size: 8px;
+  }
+  
+  .fs-9 {
+    font-size: 9px;
+  }
+  
+  .fs-10 {
+    font-size: 10px;
+  }
+  
+  .fs-11 {
+    font-size: 11px;
+  }
+  
+  .fs-12 {
+    font-size: 12px;
+  }
+  
+  .fs-13 {
+    font-size: 13px;
+  }
+  
+  .fs-14 {
+    font-size: 14px;
+  }
+  
+  .fs-15 {
+    font-size: 15px;
+  }
+  
+  .fs-16 {
+    font-size: 16px;
+  }
+  
+  .fs-17 {
+    font-size: 17px;
+  }
+  
+  .fs-18 {
+    font-size: 18px !important;
+  }
+  
+  .fs-19 {
+    font-size: 19px !important;
+  }
+  
+  .fs-20 {
+    font-size: 20px !important;
+  }
+  
+  .fs-22 {
+    font-size: 22px !important;
+  }
+  
+  .fs-24 {
+    font-size: 24px !important;
+  }
+  
+  .fs-26 {
+    font-size: 26px !important;
+  }
+  
+  .fs-28 {
+    font-size: 28px !important;
+  }
+  
+  .fs-25 {
+    font-size: 25px !important;
+  }
+  .fs {
+      font-size: 25px;
+  }
+  
+  .fs-30 {
+    font-size: 30px !important;
+  }
+  
+  .fs-35 {
+    font-size: 35px !important;
+  }
+  
+  .fs-40 {
+    font-size: 40px !important;
+  }
+  
+  .fs-45 {
+    font-size: 45px !important;
+  }
+  
+  .fs-50 {
+    font-size: 50px !important;
+  }
+  
+  .fs-55 {
+    font-size: 55px !important;
+  }
+  
+  .fs-60 {
+    font-size: 60px !important;
+  }
+  
+  .fs-65 {
+    font-size: 65px !important;
+  }
+  
+  .fs-70 {
+    font-size: 70px;
+  }
+  
+  .fs-75 {
+    font-size: 75px;
+  }
+  
+  .fs-80 {
+    font-size: 80px;
+  }
+  
+  .fs-85 {
+    font-size: 85px;
+  }
+  
+  .fs-90 {
+    font-size: 90px;
+  }
+  
+  .fs-95 {
+    font-size: 95px;
+  }
+  
+  .fs-100 {
+    font-size: 100px;
+  }
+  .shadow-sm {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  }
+  .shadow {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  }
+  .shadow-lg {
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+  }
+  .shadow-none {
+    box-shadow: none !important;
+  }
+  .pos-absolute {
+    position: absolute;
+    top: 0;
+    border: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  
+.position-static {
+	position: static !important;
+}
+.position-relative {
+	position: relative !important;
+}
+.position-absolute {
+	position: absolute !important;
+}
+.position-fixed {
+	position: fixed !important;
+}
+.position-sticky {
+	position: -webkit-sticky !important;
+	position: sticky !important;
+}
+.fixed-top {
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 1030;
+}
+.fixed-bottom {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 1030;
+}
+@supports (position: -webkit-sticky) or (position: sticky) {
+	.sticky-top {
+		position: -webkit-sticky;
+		position: sticky;
+		top: 0;
+		z-index: 1020;
+	}
+}
+.sr-only {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	white-space: nowrap;
+	border: 0;
+}
+.sr-only-focusable {
+	&:active, &:focus {
+		position: static;
+		width: auto;
+		height: auto;
+		overflow: visible;
+		clip: auto;
+		white-space: normal;
+	}
+}

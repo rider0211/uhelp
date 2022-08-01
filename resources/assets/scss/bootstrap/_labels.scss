@@ -1,0 +1,20 @@
+/*--- Label ---*/
+
+.label-default {
+	background: #f3f4f7;
+}
+.label-primary {
+	background: var(--primary);
+}
+.label-success {
+	background: $success;
+}
+.label-danger {
+	background: #dc0441;
+}
+.label-warning {
+	background: $warning;
+}
+.label-info {
+	background: $info;
+}

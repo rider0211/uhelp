@@ -1,0 +1,211 @@
+/*--- Tabs ---*/
+
+.tabs-menu ul li {
+	a {
+		padding: 10px 20px 11px 20px;
+		display: block;
+	}
+	.active {
+		background: var(--primary);
+		color: $white !important;
+		border-radius: 25px;
+	}
+}
+.tabs-menu1 ul li {
+	a {
+		padding: 10px 20px 11px 20px;
+		display: block;
+		font-weight: 500;
+	}
+	.active {
+		border-bottom: 3px solid var(--primary);
+	}
+}
+.tabs-menu-body {
+	padding: 15px;
+	border: $border;
+	border-radius: 0 8px 8px 8px;
+	p:last-child {
+		margin-bottom: 0;
+	}
+}
+.tab-menu-heading {
+	padding: 20px;
+	border: $border;
+	border-bottom: 0;
+	border-radius: 5px 5px 0 0;
+}
+.tab_wrapper .content_wrapper .tab_content.active p:last-child {
+	margin-bottom: 0;
+}
+.tab_wrapper {
+	>ul li.active {
+		border-color: var(--primary) !important;
+		background: var(--primary) !important;
+		color: $white;
+	}
+	&.right_side>ul li.active:after {
+		background: var(--primary) !important;
+	}
+	>ul {
+		li {
+			border: $border;
+			border-top: 3px solid $border;
+		}
+		border-bottom: $border;
+	}
+	&.right_side {
+		.content_wrapper {
+			border: $border;
+		}
+		>ul {
+			li {
+				&.active {
+					border-color: $border;
+				}
+				&:after {
+					background: $border;
+				}
+			}
+			border-bottom: $border;
+		}
+	}
+}
+.card-pay .tabs-menu {
+	margin-bottom: 25px;
+	border-radius: 5px;
+	overflow: hidden;
+  
+	li {
+	  width: 33.3%;
+	  display: block;
+  
+	  a {
+		padding: 0.5rem 1rem;
+		background: #f0f0f2;
+		display: block;
+		text-align: center;
+		border-right: 1px solid #ebecf1;
+  
+		&.active {
+		  color: $white;
+		  border-radius: 2px;
+		  text-align: center;
+		}
+	  }
+  
+	  &:last-child a {
+		border-right: 0;
+	  }
+	}
+  }
+  .card-pay .tabs-menu {
+	margin-bottom: 25px;
+	border-radius: 5px;
+	overflow: hidden;
+	li {
+		width: 33.3%;
+		display: block;
+		a {
+			padding: 0.5rem 1rem;
+			background: #f3f4f7;
+			display: block;
+			text-align: center;
+			border-right: 1px solid #d3dfea;
+			&.active {
+				background: var(--primary);
+				color: $white;
+				border-radius: 2px;
+				text-align: center;
+			}
+		}
+		&:last-child a {
+			border-right: 0;
+		}
+	}
+}
+@media (max-width: 567px) {
+	.card-pay .tabs-menu li {
+		a {
+			margin-bottom: 15px;
+		}
+		width: 100%;
+	}
+	.table_tabs .tabs-menu1{
+		ul li a{
+			border-bottom: 1px solid #e9ebfa !important;
+			border-radius: 8px !important;
+			&.active{
+				border-bottom: 1px solid #e9ebfa !important;
+			}
+		}
+	}
+	.hremp-tabs .tabs-menu1{
+		ul li {
+			margin: 15px 0 !important;
+			&:not(:last-child){
+				margin-bottom: 0 !important;
+			}
+			a{
+				margin:0 !important;
+				border-bottom: 1px solid #e9ebfa !important;
+				border-radius: 8px !important;
+			}
+			&.active{
+				border-bottom: 1px solid #e9ebfa !important;
+			}
+		}
+	}
+}
+@media (max-width: 480px) {
+	.tabs-menu1 ul li {
+		width: 100%;
+		margin: 15px;
+		a {
+			width: 100%;
+		}
+	}
+	.table_tabs .tabs-menu1 ul li:not(:last-child){
+		margin-bottom: 0;
+	}
+	.jobtable-tabs .tabs-menu1 ul li {
+		width: 100%;
+		margin: 15px;
+		a{
+			width: 100%;
+			border: 1px solid #e9ebfa !important;
+			border-radius: 8px !important;
+			margin: 0 !important;
+		}
+	}
+	.jobtable-tabs .tabs-menu1 ul li:not(:last-child){
+		margin-bottom: 0;
+	}
+	.jobtable-tabs .tabs-menu1 ul li:last-child{
+		margin-right: 15px !important;
+	}  
+}
+@media (min-width: 480px) and (max-width: 767px) {
+	.hremp-tabs .tabs-menu1 ul li a{
+		padding: 12px 16px 12px 16px !important;
+		margin: 0 0.4rem !important;
+		font-size: 12px;
+	}
+	.hremp-tabs .tabs-menu1 ul li:first-child{
+		margin-left:0 !important;
+	}
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+	.table_tabs .tabs-menu1 ul li a{
+		margin: 0 0.1rem !important;
+		padding: 10px 18px 11px 18px;
+	}
+	.hremp-tabs .tabs-menu1 ul li a{
+		padding: 12px 15px 12px 15px !important;
+		margin: 0 0.2rem !important;
+		font-size: 12px;
+	}
+	.hremp-tabs .tabs-menu1 ul li:first-child{
+		margin-left:0 !important;
+	}
+}

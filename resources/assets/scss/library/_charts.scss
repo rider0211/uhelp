@@ -1,0 +1,92 @@
+/*--- Charts ---*/
+
+.chart-circle {
+	display: block;
+	height: 8rem;
+	width: 8rem;
+	position: relative;
+	margin: 0 auto;
+	canvas {
+		margin: 0 auto;
+		display: block;
+		max-width: 100%;
+		max-height: 100%;
+	}
+}
+.chart-circle-xxs {
+	height: 2rem;
+	width: 2rem;
+	font-size: .7rem;
+}
+.chart-circle-xs {
+	height: 2.5rem;
+	width: 2.5rem;
+	font-size: .8rem;
+}
+.chart-circle-sm {
+	height: 4rem;
+	width: 4rem;
+	font-size: .8rem;
+}
+.chart-circle-md {
+	height: 6rem;
+	width: 6rem;
+	font-size: .8rem;
+}
+.chart-circle-lg {
+	height: 10rem;
+	width: 10rem;
+	font-size: .8rem;
+}
+.chart-circle-value {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	bottom: 0;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	line-height: 1;
+	small {
+		display: block;
+		color: #9aa0ac;
+		font-size: 0.9375rem;
+	}
+}
+/*------ Charts styles ------*/
+.chart-visitors {
+	min-height: 18rem;
+	overflow: hidden;
+}
+.chart-height {
+	height: 20rem;
+	overflow: hidden;
+}
+.chart-tasks {
+	height: 15rem;
+	overflow: hidden;
+}
+.chart-donut {
+	height: 21rem;
+	overflow: hidden;
+}
+.chart-pie {
+	height: 22rem;
+	overflow: hidden;
+}
+.chartsh {
+	height: 16rem;
+	overflow: hidden;
+}
+.chartwidget {
+	height: 17rem;
+	overflow: hidden;
+}

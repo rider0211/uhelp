@@ -1,0 +1,24 @@
+/*---- time-line ----*/
+
+.timeline__item:after {
+	background: $white !important;
+}
+.timeline--horizontal .timeline-divider {
+	background: #ebeff8 !important;
+}
+.timeline__content {
+	background-color: $white;
+	border-radius: 10px;
+	display: block;
+	padding: 1.25rem;
+	position: relative;
+}
+.timeline__item:after {
+	border: 6px solid var(--primary);
+}
+.timeline__content {
+	background-color: #eaf0f9;
+}
+.timeline__item:after {
+	border: 6px solid var(--primary);
+}

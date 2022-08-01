@@ -1,0 +1,13 @@
+{
+    "name": "Uhelpupdate",
+    "alias": "uhelpupdate",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Uhelpupdate\\Providers\\UhelpupdateServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
